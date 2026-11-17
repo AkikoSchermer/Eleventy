@@ -1,0 +1,11 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+<h1> test snap</h1>
+
+{% for snap in snaps %}
+<p> {{ snap.uuid }} </p>
+{% endfor %}
+
+{% endblock %}

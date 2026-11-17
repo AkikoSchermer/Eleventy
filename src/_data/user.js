@@ -11,13 +11,13 @@ export default async function () {
 		type: "json",
 	});
 
-console.log(userUuid);
+// console.log(userUuid);
 
 const user = json.data.find (
  (user) => user.uuid === userUuid
 );
 
-console.log(user);
+// console.log(user);
 
 return user;
 
